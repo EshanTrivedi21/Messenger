@@ -4,5 +4,17 @@ import Box from "./Box";
 import Container from "./Container";
 import AuthBg from "./AuthBg";
 import Typography from "./Typography";
+import TextInput from "./TextInput";
+import { PrimaryButton } from "./Buttons";
 
-export { BackIcon, FlexCol, FlexRow, Box, Container, AuthBg, Typography };
+export {
+  BackIcon,
+  FlexCol,
+  FlexRow,
+  Box,
+  Container,
+  AuthBg,
+  Typography,
+  TextInput,
+  PrimaryButton,
+};
