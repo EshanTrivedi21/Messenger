@@ -1,5 +1,5 @@
 const Box = ({ children, className }) => {
-  const classes = `bg-[#efefef] ${className}}`;
+  const classes = `${className} bg-[#efefef]`;
   return <div className={classes}>{children}</div>;
 };
 
