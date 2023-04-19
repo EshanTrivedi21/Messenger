@@ -20,7 +20,7 @@ const Register = () => {
               <Typography variant="auth-title" content="Register" />
               <Typography variant="auth-subtitle" content="Create your account now"/>
             </FlexCol>
-            <FlexCol className="w-[75%] gap-6">
+            <FlexCol className="!w-[75%] gap-6">
               <TextInput label="Full Name" />
               <TextInput label="Email" />
               <TextInput label="Password" />

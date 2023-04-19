@@ -1,4 +1,5 @@
-import { Home, Register, Login } from "../auth/exports";
+import { Home } from "../pages/exports";
+import { Register, Login } from "../auth/exports";
 
 const routes = [
   {

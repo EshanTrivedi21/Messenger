@@ -20,7 +20,7 @@ const Login = () => {
               <Typography variant="auth-title" content="Login" />
               <Typography variant="auth-subtitle" content="Log in to your account"/>
             </FlexCol>
-            <FlexCol className="w-[75%] gap-6">
+            <FlexCol className="!w-[75%] gap-6">
               <TextInput label="Email" />
               <TextInput label="Password" />
             </FlexCol>
