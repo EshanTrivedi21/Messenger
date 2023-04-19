@@ -1,8 +1,12 @@
-import React from 'react'
+import React from 'react';
+import { Navbar } from './exports';
+import { Box } from '../utilities/exports';
 
 const Sidebar = () => {
   return (
-    <div>Sidebar</div>
+      <Box className="!w-[30%] !h-[100vh] !bg-[#282828]">
+        <Navbar username="Eshan Trivedi"/>
+      </Box >
   )
 }
 

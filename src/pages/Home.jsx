@@ -1,13 +1,18 @@
-import React from 'react';
-import { Container, Box } from '../utilities/exports';
+import React from "react";
+import { Sidebar, Chat } from "../components/exports";
+import { Container, Box, FlexRow } from "../utilities/exports";
 
 const Home = () => {
   return (
     <Container>
-      <Box className="h-[85vh] w-[75vw]">
+      <Box className="w-screen h-screen">
+        <FlexRow className="!justify-start">
+          <Sidebar />
+          <Chat />
+        </FlexRow>
       </Box>
     </Container>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

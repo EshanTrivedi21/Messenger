@@ -20,6 +20,13 @@ body {
   background-size: cover;
 }
 
+.home-bg {
+  background-image: url("../public/assets/images/HomeBg.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
